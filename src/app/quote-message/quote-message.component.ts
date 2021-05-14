@@ -14,6 +14,12 @@ this.removeQuote.emit(deleteItem);
  }  
  numberOfLikes: number = 0;
  numberOfDislikes: number = 0;
+ upVote(){
+   this.numberOfLikes++;
+ }
+ downVote(){
+   this.numberOfDislikes++;
+ }
 
 constructor() { }
 
