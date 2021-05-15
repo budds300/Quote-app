@@ -1,23 +1,23 @@
 
 <form (ngSubmit)='submit(quotesEntry);'  #quotesEntry = 'ngForm' >
     <div class="form-group">
-        <input type="text" class="form-control bg-transparent " rows="5" id="author" placeholder="Enter Author" name="author" [(ngModel)]='newQuote.submittedName'#submittedName= 'ngModel' required>
-        <div [hidden]="author.valid || author.pristine" class="alsert alert-danger"> </div>
+        <input type="text" class="form-control bg-transparent " rows="5" id="author" placeholder="Enter Author" name="author" [(ngModel)]='newQuote.author'#author= 'ngModel' required>
+        <div [hidden]="author.valid || author.pristine" class="alert alert-danger"> </div>
         <p>Author is required</p>
     </div>
     <div class="form-group">
-        <textarea type="text" class="form-control bg-transparent " rows="5" id="quotesEntry" placeholder="Enter Quote" name="entryQuote" [(ngModel)]='newQuote.entryQuote'#entryQuote= 'ngModel' required></textarea>
+        <textarea type="text" class="form-control bg-transparent " rows="5" id="entryQuote" placeholder="Enter Quote" name="entryQuote" [(ngModel)]='newQuote.entryQuote'#entryQuote= 'ngModel' required></textarea>
         <div [hidden]="entryQuote.valid || entryQuote.pristine" class="alsert alert-danger"> </div>
         <p>Quote is required</p>
     </div>
     <div class="form-group">
         <input type="text" class="form-control bg-transparent " rows="5" id="submittedName" placeholder="Enter Author" name="submittedName" [(ngModel)]='newQuote.submittedName'#submittedName= 'ngModel' required>
-        <div [hidden]="subbmittedName.valid || submittedName.pristine" class="alsert alert-danger"> </div>
+        <div [hidden]="submittedName.valid || submittedName.pristine" class="alert alert-danger"> </div>
         <p>Name is required</p>
     </div>
     <div class="form-group">
-        <input type="text" class="form-control bg-transparent " id="date" rows="5" placeholder="Enter Date" name="date" [(ngModel)]='newQuote.submittedName'#submittedName= 'ngModel' required>
-        <div [hidden]="date.valid || date.pristine" class="alsert alert-danger"> </div>
+        <input type="text" class="form-control bg-transparent " id="date" rows="5" placeholder="Enter Date" name="date" [(ngModel)]='newQuote.Date' #date= 'ngModel' required>
+        <div [hidden]="date.valid || date.pristine" class="alert alert-danger"> </div>
         <p>Date is required</p>
     </div>
     <input type="submit" value="submit" class="btn btn-dark">
