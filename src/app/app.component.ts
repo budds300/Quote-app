@@ -20,6 +20,13 @@ toggleDetails(index:any){
   this.quoteEntry[index].showDetails= !this.quoteEntry[index].showDetails;
 }
 removeItem(removeQuote:any,index:any){
-  
+  if(removeQuote){
+    let toDeleteQuote= confirm(`Are you sure you want to delet ${this.quoteEntry[index].author}?`);
+    
+    if (toDeleteQuote){
+    this.quoteEntry.splice(index, 1)
+  }
+   
+}
 }
 }
