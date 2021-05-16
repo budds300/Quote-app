@@ -2,8 +2,9 @@
     <p class="mb-0">{{message.entryQuote}} </p>
     <footer class="blockquote-footer pt-3"> {{message.author}} </footer>
     <div>
-        <i class="far fa-thumbs-up pl-3 border p-3"(click)='upVote()'> <img src="/src/assets/like.png" width="100" height="100" class="img-fluid"  alt=""> </i> {{numberOfLikes}}
-        <i class="far fa-thumbs-down pl-3 border p-3" (click)= 'downVote()'><img src="/src/assets/thumb-down.png" width="100" height="100" class="img-fluid"  alt=""></i> {{numberOfDislikes}}
-        <i class="far fa-trash-alt pl-3 border p-3" (click)='quoteDelete(true)'> <img  src="/src/assets/delete.png" width="100" height="100" class="img-fluid" alt=""> </i>
+        <i class="far fa-thumbs-up pl-3 border p-3"(click)='upVote()'>Up Vote  </i> {{numberOfLikes}}
+        <i class="far fa-thumbs-down pl-3 border p-3" (click)= 'downVote()'>Down Vote</i> {{numberOfDislikes}}
+        <i class="far fa-trash-alt pl-3 border p-3" (click)='quoteDelete(true)'>Delete </i>
+        
     </div>
 </blockquote>
