@@ -4,7 +4,7 @@
         <p>Welcome to Quotes App where you can view and share quotes to bring out the best in people</p>
     </div>
 <div class="row pt-5">
-    <div class="col-md-7">
+    <div class="col-md-6">
         <div class="card pb-3" *ngFor = 'let quote of quoteEntry; let i = index'>
             <h6> <span class="Name">Published by {{quote.submittedName}}</span> <span class="date"> {{quote.Date|date}} </span></h6>
             <app-quote-message *ngIf='quote.showDetails' [message]='quote' (removeQuote)='removeItem($event,i)'></app-quote-message>
