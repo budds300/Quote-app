@@ -1,27 +1,46 @@
-# QuoteApp
+# Quotes App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+This a project made using angular which a user can share and also view quotes by other users.The app then updates the quotes once the user submits through the input field.The quotes output shows the user who has published the quote and the date of publish the quote and the author of the quote.The link to the site is [here](https://github.com/budds300/Quote-app)
+![QuotesApp](Screenshot.png)
 
-## Development server
+## Author
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Tamminga Budds
 
-## Code scaffolding
+## Project Setup
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project is accessible on github.Copy the [repository](https://github.com/budds300/Quote-app) and set it to your local machine by following the steps below.
+Open your terminal and paste the link.
 
-## Build
+```
+$ git clone <repo-link>
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+then go to the directory/folder of the project you just cloned
 
-## Running unit tests
+```
+$ cd Directory
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+You then type [code .]() for Vs code or [atom .]() for atom IDE
 
-## Running end-to-end tests
+```
+code .
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
+## Contribution
 
-## Further help
+You can contribute by forking the project and cloning it to your local machine and following the above steps
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Technologies Used
+
+- Angular
+- Typescript
+- html
+
+## Support and Contact
+
+If you run into any challenge in setting up the project feel free to contact me budds300@gmail.com
+## License and Copyright
+
+Licensed under [MIT licence](https://choosealicense.com/licenses/mit/)
