@@ -1,6 +1,6 @@
 # Quotes App
 
-This a project made using angular which a user can share and also view quotes by other users.The app then updates the quotes once the user submits through the input field.The quotes output shows the user who has published the quote and the date of publish the quote and the author of the quote.The link to the site is [here](https://github.com/budds300/Quote-app)
+This a project made using angular which a user can share and also view quotes by other users.The app then updates the quotes once the user submits through the input field.The quotes output shows the user who has published the quote and the date of publish the quote and the author of the quote.The link to the site is [here](https://budds300.github.io/Quote-app/)
 ![QuotesApp](Screenshot.png)
 
 ## Author
