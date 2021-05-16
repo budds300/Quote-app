@@ -29,4 +29,8 @@ removeItem(removeQuote:any,index:any){
    
 }
 }
+addNewQuote(quote:any){
+  let quoteObject = new Quotedetails(quote.author,quote.entryQuote,quote.submittedName,quote.date)
+  this.quoteEntry.push(quoteObject)
+}
 }
