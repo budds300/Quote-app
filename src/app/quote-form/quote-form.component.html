@@ -1,7 +1,7 @@
 
 <form (ngSubmit)='submit(quotesEntry);'  #quotesEntry = 'ngForm' >
     <div class="form-group">
-        <input type="text" class="form-control bg-transparent " rows="5" id="author" placeholder="Enter Author" name="author" [(ngModel)]='newQuote.author'#author= 'ngModel' required>
+        <input type="text" class="form-control bg-transparent text-white" rows="5" id="author" placeholder="Enter Author" name="author" [(ngModel)]='newQuote.author'#author= 'ngModel' required>
         <div [hidden]="author.valid || author.pristine" class="alert alert-danger"> </div>
         <p>Author is required</p>
     </div>
